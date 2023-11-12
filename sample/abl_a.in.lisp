@@ -1,0 +1,5 @@
+(defun main()
+  (declare (-> () int))
+  (dotimes (i (lilay:read-int))
+    (princ "ACL"))
+  (princ "\n"))
